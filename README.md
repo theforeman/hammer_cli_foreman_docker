@@ -1,4 +1,4 @@
-Foreman Docker Commands for Hammer CLI
+hammer_cli_foreman_docker [![Build Status](https://travis-ci.org/theforeman/hammer_cli_foreman_docker.svg)](https://travis-ci.org/theforeman/hammer_cli_foreman_docker)
 =========================================
 
 This [Hammer CLI](https://github.com/theforeman/hammer-cli) plugin contains

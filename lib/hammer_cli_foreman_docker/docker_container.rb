@@ -7,7 +7,6 @@ module HammerCLIForemanDocker
     command_name 'container'
     desc _('Manage docker containers')
 
-
     class ListCommand < HammerCLIForeman::ListCommand
       output do
         field :name, _('Name')
@@ -21,12 +20,11 @@ module HammerCLIForemanDocker
     end
 
     class InfoCommand < HammerCLIForeman::InfoCommand
-
       output ListCommand.output_definition do
         field :entrypoint, _('Entrypoint')
-        field :cpu_set , _('CPU set')
-        field :cpu_shares , _('CPU shares')
-        field :memory , _('Memory (Bytes)')
+        field :cpu_set, _('CPU set')
+        field :cpu_shares, _('CPU shares')
+        field :memory, _('Memory (Bytes)')
         field :tty, _('TTY'), Fields::Boolean
         field :attach_stdin, _('Attach STDIN'), Fields::Boolean
         field :attach_stdout, _('Attach STDOUT'), Fields::Boolean
@@ -69,7 +67,6 @@ module HammerCLIForemanDocker
       build_options
     end
 
-
     class StatusCommand < HammerCLIForeman::InfoCommand
       command_name "status"
       action :power
@@ -92,7 +89,6 @@ module HammerCLIForemanDocker
       build_options :without => :power_action
     end
 
-
     class StartCommand < HammerCLIForeman::SingleResourceCommand
       command_name "start"
       action :power
@@ -108,7 +104,6 @@ module HammerCLIForemanDocker
 
       build_options :without => :power_action
     end
-
 
     class StopCommand < HammerCLIForeman::SingleResourceCommand
       command_name "stop"
@@ -128,5 +123,4 @@ module HammerCLIForemanDocker
 
     autoload_subcommands
   end
-
 end
