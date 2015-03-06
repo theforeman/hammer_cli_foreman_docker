@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'hammer_cli_foreman', '>= 0.1.2'
-
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rubocop', '0.28.0'
 end

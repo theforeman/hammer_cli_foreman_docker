@@ -18,6 +18,4 @@ module HammerCLIForemanDocker
                HammerCLIForemanDocker::DockerContainerCommand.desc,
                HammerCLIForemanDocker::DockerContainerCommand
   end
-
-
 end
