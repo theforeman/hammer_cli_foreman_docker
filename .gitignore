@@ -24,3 +24,8 @@ doc/
 .rvmrc
 .ruby-version
 .ruby-gemset
+
+# Locale files
+locale/*/*.edit.po
+locale/*/*.po.time_stamp
+
