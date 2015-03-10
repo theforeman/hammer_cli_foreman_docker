@@ -1,35 +1,42 @@
-module HammerCLIForemanDocker
-  class DockerTagCommand < HammerCLIForeman::Command
-    resource :docker_tags
-    command_name 'tag'
-    desc _('Manage docker tags')
+begin
+  require 'hammer_cli_katello'
 
-    class ListCommand < HammerCLIForeman::ListCommand
-      output do
-        field :id, _("ID")
-        field :tag, _("Tag")
-        field :repository_id, _("Repository ID")
-      end
+  module HammerCLIForemanDocker
+    class DockerTagCommand < HammerCLIForeman::Command
+      resource :docker_tags
+      command_name 'tag'
+      desc _('Manage docker tags')
 
-      build_options do |o|
-        o.expand.including(:products, :organizations, :content_views)
-      end
-    end
+      class ListCommand < HammerCLIKatello::ListCommand
+        include ::HammerCLIKatello::LifecycleEnvironmentNameResolvable
+        output do
+          field :id, _("ID")
+          field :tag, _("Tag")
+          field :repository_id, _("Repository ID")
+        end
 
-    class InfoCommand < HammerCLIForeman::InfoCommand
-      output do
-        field :id, _("ID")
-        field :tag, _("Tag")
-        field :repository_id, _("Repository ID")
-
-        from :image do
-          field :id, _("Docker Image ID")
+        build_options do |o|
+          o.expand.including(:products, :organizations, :content_views)
         end
       end
 
-      build_options
-    end
+      class InfoCommand < HammerCLIKatello::InfoCommand
+        output do
+          field :id, _("ID")
+          field :tag, _("Tag")
+          field :repository_id, _("Repository ID")
 
-    autoload_subcommands
+          from :image do
+            field :id, _("Docker Image ID")
+          end
+        end
+
+        build_options
+      end
+
+      autoload_subcommands
+    end
   end
+rescue LoadError
+  warn _("'hammer_cli_katello' needs to be installed for %s command to work") % 'tag'
 end
