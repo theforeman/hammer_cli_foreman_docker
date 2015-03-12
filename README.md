@@ -5,6 +5,8 @@ This [Hammer CLI](https://github.com/theforeman/hammer-cli) plugin contains
 set of commands for [foreman_docker](https://github.com/theforeman/foreman_docker),
 a plugin to [Foreman](http://theforeman.org/) for Docker.
 
+Check out the [release notes](doc/release_notes.md#release-notes) to see what's new in the latest version.
+
 Configuration
 -------------
 

@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name          = 'hammer_cli_foreman_docker'
   s.version       = HammerCLIForemanDocker.version.dup
   s.platform      = Gem::Platform::RUBY
-  s.authors       = ['David Davis']
+  s.authors       = ['David Davis', 'Martin Bačovský']
   s.email         = 'daviddavis@redhat.com'
   s.homepage      = 'http://github.com/theforeman/hammer_cli_foreman_docker'
   s.license       = 'GPL v3+'
