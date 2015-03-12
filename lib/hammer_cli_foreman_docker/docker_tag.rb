@@ -11,7 +11,7 @@ begin
         include ::HammerCLIKatello::LifecycleEnvironmentNameResolvable
         output do
           field :id, _("ID")
-          field :tag, _("Tag")
+          field :name, _("Tag")
           field :repository_id, _("Repository ID")
         end
 
@@ -23,7 +23,7 @@ begin
       class InfoCommand < HammerCLIKatello::InfoCommand
         output do
           field :id, _("ID")
-          field :tag, _("Tag")
+          field :name, _("Tag")
           field :repository_id, _("Repository ID")
 
           from :image do
