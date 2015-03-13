@@ -12,7 +12,8 @@ Gem::Specification.new do |s|
   s.summary       = 'Foreman Docker-related commands for Hammer'
   s.description   = 'Foreman Docker-related commands for Hammer CLI'
 
-  s.files            = Dir['{lib,locale}/**/*', 'README*']
+  s.files            = Dir['{lib,doc,test,locale,config}/**/*', 'README*']
+  s.test_files       = Dir['{test}/**/*']
   s.extra_rdoc_files = Dir['README*']
   s.require_paths = ['lib']
 

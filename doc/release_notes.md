@@ -1,7 +1,7 @@
 Release notes
 =============
 
-### 0.0.2 (2015-03-13)
+### 0.0.3 (2015-03-13)
 * fixing tag name field ([#9738](http://projects.theforeman.org/issues/9738))
 
 ### 0.0.1 (2015-03-12)
