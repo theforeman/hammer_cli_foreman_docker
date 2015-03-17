@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require File.expand_path('../lib/hammer_cli_foreman_docker/version', __FILE__)
 
 Gem::Specification.new do |s|
