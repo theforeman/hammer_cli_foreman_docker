@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer_cli_foreman_docker package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.1\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-09 13:45+0100\n"
-"PO-Revision-Date: 2015-03-09 13:45+0100\n"
+"PO-Revision-Date: 2015-03-09 14:21+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/foreman/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../lib/hammer_cli_foreman_docker.rb:6
 msgid "Manipulate docker content"
@@ -28,7 +27,7 @@ msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
 msgid "Image repository"
@@ -47,7 +46,7 @@ msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:17
 msgid "Compute resource"
-msgstr ""
+msgstr "计算机资源"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
 msgid "Entrypoint"
@@ -103,7 +102,7 @@ msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:61
 msgid "Logs"
-msgstr ""
+msgstr "日志"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:78
 msgid "Running"
@@ -139,12 +138,12 @@ msgstr ""
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
 msgid "Image ID"
-msgstr ""
+msgstr "介质编号"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:11
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:23
 msgid "Size"
-msgstr ""
+msgstr "大小"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
 msgid "Tags"

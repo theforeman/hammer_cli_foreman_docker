@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.1\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2015-03-09 13:45+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -111,6 +111,9 @@ msgid "Tags"
 msgstr ""
 
 msgid "Repository ID"
+msgstr ""
+
+msgid "'hammer_cli_katello' needs to be installed for %s command to work"
 msgstr ""
 
 msgid "Manage docker tags"
