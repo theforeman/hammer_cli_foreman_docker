@@ -1,3 +1,4 @@
+require 'hammer_cli_foreman_docker/docker_registry'
 require 'hammer_cli_foreman_docker/docker_container'
 
 module HammerCLIForemanDocker
@@ -14,6 +15,9 @@ module HammerCLIForemanDocker
                  HammerCLIForemanDocker::DockerTagCommand.desc,
                  HammerCLIForemanDocker::DockerTagCommand
     end
+    subcommand 'registry',
+               HammerCLIForemanDocker::DockerRegistryCommand.desc,
+               HammerCLIForemanDocker::DockerRegistryCommand
     subcommand 'container',
                HammerCLIForemanDocker::DockerContainerCommand.desc,
                HammerCLIForemanDocker::DockerContainerCommand
