@@ -1,3 +1,4 @@
+# -*- encoding: utf-8 -*-
 require File.expand_path('../lib/hammer_cli_foreman_docker/version', __FILE__)
 
 Gem::Specification.new do |s|
@@ -12,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary       = 'Foreman Docker-related commands for Hammer'
   s.description   = 'Foreman Docker-related commands for Hammer CLI'
 
-  s.files            = Dir['{lib,doc,test,locale,config}/**/*', 'README*']
+  s.files            = Dir['{lib,doc,test,locale,config}/**/*', 'README*', 'LICENSE']
   s.test_files       = Dir['{test}/**/*']
   s.extra_rdoc_files = Dir['README*']
   s.require_paths = ['lib']

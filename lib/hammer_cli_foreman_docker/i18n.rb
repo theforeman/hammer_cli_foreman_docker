@@ -20,13 +20,11 @@ module HammerCLIForemanDocker
       def locale_dir
         '/usr/share/locale'
       end
-
-      def domain_name
-        "#{super}@system"
-      end
     end
   end
 end
 
-HammerCLI::I18n.add_domain(HammerCLIForemanDocker::I18n::LocaleDomain.new)
-HammerCLI::I18n.add_domain(HammerCLIForemanDocker::I18n::SystemLocaleDomain.new)
+domain = [
+  HammerCLIForemanDocker::I18n::LocaleDomain.new,
+  HammerCLIForemanDocker::I18n::SystemLocaleDomain.new].find { |d| d.available? }
+HammerCLI::I18n.add_domain(domain) if domain
