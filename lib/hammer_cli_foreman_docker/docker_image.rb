@@ -13,6 +13,14 @@ begin
           field :id, _("ID")
           field :image_id, _("Image ID")
           field :size, _("Size")
+          field :_tag_count, _("Tag count")
+          field :_tag_list, _("Tags"), Fields::List
+        end
+
+        def extend_data(record)
+          record["_tag_list"] = (record['tags'] || []).map { |tag| tag['name'] }.uniq
+          record["_tag_count"] = record["_tag_list"].count
+          record
         end
 
         build_options do |o|
@@ -28,7 +36,7 @@ begin
 
           collection :tags, _("Tags") do
             field :repository_id, _("Repository ID")
-            field :tag, _("Tag")
+            field :name, _("Tag")
           end
         end
 
