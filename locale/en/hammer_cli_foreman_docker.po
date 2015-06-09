@@ -107,6 +107,9 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
+msgid "Tag count"
+msgstr ""
+
 msgid "Tags"
 msgstr ""
 
@@ -114,6 +117,30 @@ msgid "Repository ID"
 msgstr ""
 
 msgid "'hammer_cli_katello' needs to be installed for %s command to work"
+msgstr ""
+
+msgid "Manage docker registries"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Docker registry created"
+msgstr ""
+
+msgid "Could not create the registry"
+msgstr ""
+
+msgid "Docker registry updated"
+msgstr ""
+
+msgid "Could not update the registry"
+msgstr ""
+
+msgid "Docker registry deleted"
+msgstr ""
+
+msgid "Could not delete the registry"
 msgstr ""
 
 msgid "Manage docker tags"

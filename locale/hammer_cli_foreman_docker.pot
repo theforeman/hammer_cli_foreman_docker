@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-17 11:42+0100\n"
-"PO-Revision-Date: 2015-03-17 11:42+0100\n"
+"POT-Creation-Date: 2015-06-09 09:00+0100\n"
+"PO-Revision-Date: 2015-06-09 09:00+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../lib/hammer_cli_foreman_docker.rb:6
+#: ../lib/hammer_cli_foreman_docker.rb:10
 msgid "Manipulate docker content"
 msgstr ""
 
@@ -27,6 +27,8 @@ msgid "Manage docker containers"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:21
 msgid "Name"
 msgstr ""
 
@@ -35,7 +37,7 @@ msgid "Image repository"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:31
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:39
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:14
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
 msgid "Tag"
@@ -130,35 +132,73 @@ msgid "Manage docker images"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:13
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:33
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:13
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:25
 msgid "ID"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:14
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:34
 msgid "Image ID"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:15
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:35
 msgid "Size"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:29
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:16
+msgid "Tag count"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:17
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:37
 msgid "Tags"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:30
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:38
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:15
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:27
 msgid "Repository ID"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:42
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:50
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:41
 msgid "'hammer_cli_katello' needs to be installed for %s command to work"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:8
+msgid "Manage docker registries"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:22
+msgid "URL"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:31
+msgid "Docker registry created"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:32
+msgid "Could not create the registry"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:38
+msgid "Docker registry updated"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:39
+msgid "Could not update the registry"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:45
+msgid "Docker registry deleted"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:46
+msgid "Could not delete the registry"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:8
