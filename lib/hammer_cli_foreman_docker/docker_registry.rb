@@ -22,6 +22,8 @@ module HammerCLIForemanDocker
         field :id, _("ID")
         field :name, _('Name')
         field :url, _('URL')
+        field :description, _('Description')
+
         HammerCLIForeman::References.taxonomies(self)
         HammerCLIForeman::References.timestamps(self)
       end
