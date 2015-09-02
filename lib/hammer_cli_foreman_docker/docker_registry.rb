@@ -9,6 +9,7 @@ module HammerCLIForemanDocker
 
     class ListCommand < HammerCLIForeman::ListCommand
       output do
+        field :id, _("ID")
         field :name, _('Name')
         field :url, _('URL')
       end
@@ -18,6 +19,7 @@ module HammerCLIForemanDocker
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       output do
+        field :id, _("ID")
         field :name, _('Name')
         field :url, _('URL')
         HammerCLIForeman::References.taxonomies(self)
