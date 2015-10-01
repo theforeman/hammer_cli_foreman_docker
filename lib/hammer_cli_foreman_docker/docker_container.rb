@@ -9,6 +9,7 @@ module HammerCLIForemanDocker
 
     class ListCommand < HammerCLIForeman::ListCommand
       output do
+        field :id, _('ID')
         field :name, _('Name')
         field :repository_name, _('Image repository')
         field :tag, _('Tag')
@@ -21,6 +22,7 @@ module HammerCLIForemanDocker
 
     class InfoCommand < HammerCLIForeman::InfoCommand
       output ListCommand.output_definition do
+        field :uuid, _('UUID')
         field :entrypoint, _('Entrypoint')
         field :cpu_set, _('CPU set')
         field :cpu_shares, _('CPU shares')
