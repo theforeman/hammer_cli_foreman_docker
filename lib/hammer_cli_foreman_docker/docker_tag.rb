@@ -26,8 +26,9 @@ begin
           field :name, _("Tag")
           field :repository_id, _("Repository ID")
 
-          from :image do
-            field :id, _("Docker Image ID")
+          from :manifest do
+            field :id, _("Docker Manifest ID")
+            field :name, _("Docker Manifest Name")
           end
         end
 

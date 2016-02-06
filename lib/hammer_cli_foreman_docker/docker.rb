@@ -3,11 +3,11 @@ require 'hammer_cli_foreman_docker/docker_container'
 
 module HammerCLIForemanDocker
   class DockerCommand < HammerCLIForeman::Command
-    if HammerCLIForeman.foreman_resource(:docker_images)
-      require 'hammer_cli_foreman_docker/docker_image'
-      subcommand 'image',
-                 HammerCLIForemanDocker::DockerImageCommand.desc,
-                 HammerCLIForemanDocker::DockerImageCommand
+    if HammerCLIForeman.foreman_resource(:docker_manifests)
+      require 'hammer_cli_foreman_docker/docker_manifest'
+      subcommand 'manifest',
+                 HammerCLIForemanDocker::DockerManifestCommand.desc,
+                 HammerCLIForemanDocker::DockerManifestCommand
     end
     if HammerCLIForeman.foreman_resource(:docker_tags)
       require 'hammer_cli_foreman_docker/docker_tag'
