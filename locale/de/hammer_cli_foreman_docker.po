@@ -1,26 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_docker package.
-# 
-# Translators:
-# Ettore Atalan <atalanttore@googlemail.com>, 2015
+# hpeters <hpeters@redhat.com>, 2015. #zanata
+# bkearney <bkearney@redhat.com>, 2016. #zanata
+# jdimanos <jdimanos@redhat.com>, 2016. #zanata
+# lstemmle <lstemmle@redhat.com>, 2016. #zanata
+# pnemade <pnemade@redhat.com>, 2016. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-09 13:45+0100\n"
-"PO-Revision-Date: 2015-03-20 23:30+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/foreman/language/de/)\n"
+"PO-Revision-Date: 2016-05-11 04:40+0000\n"
+"Last-Translator: lstemmle <lstemmle@redhat.com>\n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Zanata 3.8.4\n"
 
 #: ../lib/hammer_cli_foreman_docker.rb:6
 msgid "Manipulate docker content"
-msgstr "Docker-Inhalt bearbeiten"
+msgstr "Docker-Inhalte bearbeiten"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
@@ -32,38 +32,42 @@ msgstr "Name"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
 msgid "Image repository"
-msgstr "Abbild-Repositorium"
+msgstr "Image-Repository"
 
+# translation auto-copied from project shotwell-core, version 0.14.1, document
+# shotwell-core
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:10
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:22
 msgid "Tag"
-msgstr "Schlagwort"
+msgstr "Tag"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:16
 msgid "Command"
 msgstr "Befehl"
 
+# translation auto-copied from project Satellite6 Foreman, version 6.1,
+# document foreman
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:17
 msgid "Compute resource"
-msgstr "Rechenressource"
+msgstr "Rechnerressource"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
 msgid "Entrypoint"
-msgstr "Einsprungpunkt"
+msgstr "Eingabepunkt"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
 msgid "CPU set"
-msgstr "CPU-Satz"
+msgstr "CPU-Set"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
 msgid "CPU shares"
-msgstr "CPU-Freigaben"
+msgstr "CPU-Anteile"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
 msgid "Memory (Bytes)"
-msgstr "Speicher (Byte)"
+msgstr "Speicher (Bytes)"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
 msgid "TTY"
@@ -71,19 +75,19 @@ msgstr "TTY"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:31
 msgid "Attach STDIN"
-msgstr "STDIN anhängen"
+msgstr "Standardeingabe anfügen"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:32
 msgid "Attach STDOUT"
-msgstr "STDOUT anhängen"
+msgstr "Standardausgabe anfügen"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:33
 msgid "Attach STDERR"
-msgstr "STDERR anhängen"
+msgstr "Standardfehlerausgabe anfügen"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:34
 msgid "Registry"
-msgstr "Registrierungsdatenbank"
+msgstr "Registry"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:43
 msgid "Docker container created"
@@ -101,6 +105,8 @@ msgstr "Docker-Container gelöscht"
 msgid "Could not delete the container"
 msgstr "Container konnte nicht gelöscht werden"
 
+# translation auto-copied from project Satellite6 Hammer CLI Foreman, version
+# 6.1, document hammer-cli-foreman
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:61
 msgid "Logs"
 msgstr "Protokolle"
@@ -123,11 +129,11 @@ msgstr "Container ausschalten"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
 msgid "The container was stopped."
-msgstr "Der Container wurde angehalten."
+msgstr "Der Container wurde gestoppt."
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
 msgid "Manage docker images"
-msgstr "Docker-Abbilder verwalten"
+msgstr "Docker-Images verwalten"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
@@ -136,30 +142,36 @@ msgstr "Docker-Abbilder verwalten"
 msgid "ID"
 msgstr "Kennung"
 
+# translation auto-copied from project Satellite6 Foreman, version 6.1,
+# document foreman
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
 msgid "Image ID"
-msgstr "Abbildkennung"
+msgstr "Image-ID"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:11
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:23
 msgid "Size"
 msgstr "Größe"
 
+# translation auto-copied from project subscription-manager, version 1.10.10,
+# document keys
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
 msgid "Tags"
-msgstr "Schlagwörter"
+msgstr "Tags"
 
+# translation auto-copied from project subscription-manager, version 1.10.10,
+# document keys
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:26
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:11
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:23
 msgid "Repository ID"
-msgstr "Repositoriumskennung"
+msgstr "Repository-ID"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
 msgid "Manage docker tags"
-msgstr "Docker-Schlagwörter verwalten"
+msgstr "Docker-Tags verwalten"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
 msgid "Docker Image ID"
-msgstr "Docker-Abbildkennung"
+msgstr "Docker-Image-ID"
