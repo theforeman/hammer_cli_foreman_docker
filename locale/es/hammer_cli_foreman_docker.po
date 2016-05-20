@@ -22,7 +22,7 @@ msgstr "Manipular contenido Docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
-msgstr ""
+msgstr "Administrar contenedores docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Name"
@@ -30,7 +30,7 @@ msgstr "Nombre"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
 msgid "Image repository"
-msgstr ""
+msgstr "Repositorio de imagen"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
@@ -51,11 +51,11 @@ msgstr "Recurso de cómputo"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
 msgid "Entrypoint"
-msgstr ""
+msgstr "Punto de entrada"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
 msgid "CPU set"
-msgstr ""
+msgstr "Conjunto de CPU"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
 msgid "CPU shares"
@@ -63,7 +63,7 @@ msgstr "Recursos compartidos de CPU"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
 msgid "Memory (Bytes)"
-msgstr ""
+msgstr "Memoria (Bytes)"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
 msgid "TTY"
@@ -87,19 +87,19 @@ msgstr "Registro"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:43
 msgid "Docker container created"
-msgstr ""
+msgstr "Se creó el contenedor docker."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:44
 msgid "Could not create the container"
-msgstr ""
+msgstr "No se pudo crear el contenedor."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:50
 msgid "Docker container deleted"
-msgstr ""
+msgstr "Se eliminó el contenedor docker."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:51
 msgid "Could not delete the container"
-msgstr ""
+msgstr "No se pudo eliminar el contenedor."
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
@@ -113,23 +113,23 @@ msgstr "Ejecutándose"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:100
 msgid "Power a container on"
-msgstr ""
+msgstr "Encender un contenedor"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:101
 msgid "The container was started."
-msgstr ""
+msgstr "Se inició el contenedor."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:117
 msgid "Power a container off"
-msgstr ""
+msgstr "Apagar un contenedor"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
 msgid "The container was stopped."
-msgstr ""
+msgstr "El contenedor se detuvo."
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
 msgid "Manage docker images"
-msgstr ""
+msgstr "Administrar imágenes docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
@@ -141,7 +141,7 @@ msgstr "ID"
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
 msgid "Image ID"
-msgstr "ID de imagen"
+msgstr "ID imagen"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:11
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:23
@@ -160,7 +160,7 @@ msgstr "ID de repositorio"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
 msgid "Manage docker tags"
-msgstr ""
+msgstr "Administrar etiquetas docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
 msgid "Docker Image ID"

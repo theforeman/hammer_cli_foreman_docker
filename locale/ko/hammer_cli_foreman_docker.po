@@ -23,7 +23,7 @@ msgstr "Docker 컨텐츠 조정 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
-msgstr ""
+msgstr "Docker 컨테이너 관리"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Name"
@@ -31,7 +31,7 @@ msgstr "이름 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
 msgid "Image repository"
-msgstr ""
+msgstr "이미지 리포지터리"
 
 # translation auto-copied from project shotwell-core, version 0.14.1, document
 # shotwell-core
@@ -54,11 +54,11 @@ msgstr "컴퓨터 리소스 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
 msgid "Entrypoint"
-msgstr ""
+msgstr "시작점"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
 msgid "CPU set"
-msgstr ""
+msgstr "CPU 세트"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
 msgid "CPU shares"
@@ -66,7 +66,7 @@ msgstr "CPU 공유 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
 msgid "Memory (Bytes)"
-msgstr ""
+msgstr "메모리(바이트)"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
 msgid "TTY"
@@ -90,19 +90,19 @@ msgstr "레지스트리"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:43
 msgid "Docker container created"
-msgstr ""
+msgstr "Docker 컨테이너가 생성되었습니다."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:44
 msgid "Could not create the container"
-msgstr ""
+msgstr "컨테이너를 생성할 수 없습니다."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:50
 msgid "Docker container deleted"
-msgstr ""
+msgstr "Docker 컨테이너가 삭제되었습니다."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:51
 msgid "Could not delete the container"
-msgstr ""
+msgstr "컨테이너를 삭제할 수 없습니다."
 
 # translation auto-copied from project Satellite6 Hammer CLI Foreman, version
 # 6.1, document hammer-cli-foreman
@@ -116,23 +116,23 @@ msgstr "실행중"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:100
 msgid "Power a container on"
-msgstr ""
+msgstr "컨테이너 전원 켜기"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:101
 msgid "The container was started."
-msgstr ""
+msgstr "컨테이너가 시작되었습니다."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:117
 msgid "Power a container off"
-msgstr ""
+msgstr "컨테이너 전원 끄기"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
 msgid "The container was stopped."
-msgstr ""
+msgstr "컨테이너가 중지되었습니다."
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
 msgid "Manage docker images"
-msgstr ""
+msgstr "Docker 이미지 관리"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
@@ -163,7 +163,7 @@ msgstr "리포지터리 ID"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
 msgid "Manage docker tags"
-msgstr ""
+msgstr "Docker 태그 관리"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
 msgid "Docker Image ID"
