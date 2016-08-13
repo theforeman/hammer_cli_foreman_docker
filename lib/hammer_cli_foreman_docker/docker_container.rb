@@ -88,6 +88,10 @@ module HammerCLIForemanDocker
         data
       end
 
+      def extend_data(data)
+        data.is_a?(Hash) ? data : {:running => data}
+      end
+
       build_options :without => :power_action
     end
 
