@@ -15,9 +15,12 @@ begin
           field :schema_version, _("Schema Version")
           field :digest, _("Digest")
           field :downloaded, _("Downloaded"), Fields::Boolean
-          from :tag do
-            field :name, _("Tag Name")
-          end
+          field :_tags, _("Tags")
+        end
+
+        def extend_data(manifest)
+          manifest['_tags'] = manifest['tags'].map { |e| e["name"] }.join(", ")
+          manifest
         end
 
         build_options do |o|
@@ -32,9 +35,14 @@ begin
           field :schema_version, _("Schema Version")
           field :digest, _("Digest")
           field :downloaded, _("Downloaded"), Fields::Boolean
-          from :tag do
-            field :name, _("Tag Name")
+          collection :tags, _("Tags") do
+            field :name, _("Name")
           end
+        end
+
+        def extend_data(manifest)
+          manifest['_tags'] = manifest['tags'].map { |e| { name: e["name"] } }.join(", ")
+          manifest
         end
 
         build_options
