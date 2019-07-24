@@ -8,7 +8,8 @@ begin
       desc _('Manage docker tags')
 
       class ListCommand < HammerCLIKatello::ListCommand
-        include ::HammerCLIKatello::LifecycleEnvironmentNameResolvable
+        include HammerCLIKatello::LifecycleEnvironmentNameMapping
+
         output do
           field :id, _("ID")
           field :name, _("Tag")
@@ -18,6 +19,8 @@ begin
         build_options do |o|
           o.expand.including(:products, :organizations, :content_views)
         end
+
+        extend_with(HammerCLIKatello::CommandExtensions::LifecycleEnvironment.new)
       end
 
       class InfoCommand < HammerCLIKatello::InfoCommand
