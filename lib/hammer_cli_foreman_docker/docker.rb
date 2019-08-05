@@ -1,5 +1,5 @@
 module HammerCLIForemanDocker
-  class DockerCommand < HammerCLIForeman::Command
+  class DockerCommand < HammerCLI::AbstractCommand
     if HammerCLIForeman.foreman_resource(:docker_manifests)
       require 'hammer_cli_foreman_docker/docker_manifest'
       subcommand 'manifest',
