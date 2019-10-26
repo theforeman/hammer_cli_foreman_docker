@@ -1,30 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer_cli_foreman_docker package.
-# 
-# Translators:
-# Claer <transiblu@claer.hammock.fr>, 2015
+# jcarbone <jcarbone@redhat.com>, 2015. #zanata
+# Corina Roe <croe@redhat.com>, 2016. #zanata
+# bkearney <bkearney@redhat.com>, 2016. #zanata
+# pnemade <pnemade@redhat.com>, 2016. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-09 13:45+0100\n"
-"PO-Revision-Date: 2015-03-10 11:01+0000\n"
-"Last-Translator: Claer <transiblu@claer.hammock.fr>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/foreman/language/fr/)\n"
+"PO-Revision-Date: 2016-05-12 03:09+0000\n"
+"Last-Translator: Corina Roe <croe@redhat.com>\n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Zanata 3.8.4\n"
 
 #: ../lib/hammer_cli_foreman_docker.rb:6
 msgid "Manipulate docker content"
-msgstr "Manipuler le contenu Docker"
+msgstr "Manipuler le contenu de docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
-msgstr "Gérer les conteneurs Docker"
+msgstr "Gèrer les conteneurs Docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Name"
@@ -32,7 +31,7 @@ msgstr "Nom"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
 msgid "Image repository"
-msgstr "Dépôt des images"
+msgstr "Référentiel d'images"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
@@ -47,7 +46,7 @@ msgstr "Commande"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:17
 msgid "Compute resource"
-msgstr "Ressource d'Ordinateur"
+msgstr "Ressource de calcul"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
 msgid "Entrypoint"
@@ -55,11 +54,11 @@ msgstr "Point d'entrée"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
 msgid "CPU set"
-msgstr "Jeu de CPU"
+msgstr "Jeu CPU"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
 msgid "CPU shares"
-msgstr "Partages CPU"
+msgstr "Partages de CPU"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
 msgid "Memory (Bytes)"
@@ -71,15 +70,15 @@ msgstr "TTY"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:31
 msgid "Attach STDIN"
-msgstr "Attacher STDIN"
+msgstr "Joindre STDIN"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:32
 msgid "Attach STDOUT"
-msgstr "Attacher STDOUT"
+msgstr "Joindre STDOUT"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:33
 msgid "Attach STDERR"
-msgstr "Attacher STDERR"
+msgstr "Joindre STDERR"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:34
 msgid "Registry"
@@ -91,7 +90,7 @@ msgstr "Conteneur Docker créé"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:44
 msgid "Could not create the container"
-msgstr "Impossible de créer le conteneur"
+msgstr "N'a pas pu créer de conteneur"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:50
 msgid "Docker container deleted"
@@ -99,42 +98,44 @@ msgstr "Conteneur Docker supprimé"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:51
 msgid "Could not delete the container"
-msgstr "Impossible de supprimer le conteneur"
+msgstr "N'a pas pu supprimer le conteneur"
 
+# translation auto-copied from project Satellite6 Hammer CLI Foreman, version
+# 6.1, document hammer-cli-foreman
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:61
 msgid "Logs"
-msgstr "Logs"
+msgstr "Journaux"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:78
 msgid "Running"
-msgstr "Lancé"
+msgstr "En cours"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:100
 msgid "Power a container on"
-msgstr "Allumer un conteneur"
+msgstr "Activer un conteneur"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:101
 msgid "The container was started."
-msgstr "Le conteneur a démarré."
+msgstr "Le conteneur a été démarré."
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:117
 msgid "Power a container off"
-msgstr "Éteindre un conteneur"
+msgstr "Désactiver un conteneur"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
 msgid "The container was stopped."
-msgstr "Le conteneur a été arrêté."
+msgstr "Le conteneur s'est arrêté."
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
 msgid "Manage docker images"
-msgstr "Gérer les images Docker"
+msgstr "Gerer les images Docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:9
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:21
 msgid "ID"
-msgstr "ID"
+msgstr "Identificateur"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
@@ -148,17 +149,17 @@ msgstr "Taille"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
 msgid "Tags"
-msgstr "Tags"
+msgstr "Balises"
 
 #: ../lib/hammer_cli_foreman_docker/docker_image.rb:26
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:11
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:23
 msgid "Repository ID"
-msgstr "ID du dépôt"
+msgstr "ID du référentiel"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
 msgid "Manage docker tags"
-msgstr "Gérer les tags Docker"
+msgstr "Gerer les balises Docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
 msgid "Docker Image ID"
