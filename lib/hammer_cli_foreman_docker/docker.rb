@@ -12,17 +12,5 @@ module HammerCLIForemanDocker
                  HammerCLIForemanDocker::DockerTagCommand.desc,
                  HammerCLIForemanDocker::DockerTagCommand
     end
-    if HammerCLIForeman.foreman_resource(:registries)
-      require 'hammer_cli_foreman_docker/docker_registry'
-      subcommand 'registry',
-                 HammerCLIForemanDocker::DockerRegistryCommand.desc,
-                 HammerCLIForemanDocker::DockerRegistryCommand
-    end
-    if HammerCLIForeman.foreman_resource(:containers)
-      require 'hammer_cli_foreman_docker/docker_container'
-      subcommand 'container',
-                 HammerCLIForemanDocker::DockerContainerCommand.desc,
-                 HammerCLIForemanDocker::DockerContainerCommand
-    end
   end
 end
