@@ -3,163 +3,208 @@
 # This file is distributed under the same license as the hammer_cli_foreman_docker package.
 # 
 # Translators:
-# Shuji Yamada <uzy.exe@gmail.com>, 2015
+# 山田 修司 🍣 Shuji Yamada <uzy.exe@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-09 13:45+0100\n"
-"PO-Revision-Date: 2015-03-22 17:41+0000\n"
-"Last-Translator: Shuji Yamada <uzy.exe@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/foreman/language/ja/)\n"
+"POT-Creation-Date: 2015-06-09 09:00+0100\n"
+"PO-Revision-Date: 2019-03-07 16:53+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/foreman/foreman/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../lib/hammer_cli_foreman_docker.rb:6
+#: ../lib/hammer_cli_foreman_docker.rb:10
 msgid "Manipulate docker content"
-msgstr "Docker コンテナの操作"
+msgstr "Docker コンテナーの操作"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
-msgstr "Docker コンテナの管理"
+msgstr "Docker コンテナーの管理"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:21
 msgid "Name"
 msgstr "名前"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Image repository"
 msgstr "イメージレポジトリ"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:10
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:22
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:39
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
 msgid "Tag"
 msgstr "Tag"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:16
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
 msgid "Command"
 msgstr "Command"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:17
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:16
 msgid "Compute resource"
 msgstr "コンピュートリソース"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:24
 msgid "Entrypoint"
 msgstr "Entrypoint"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:25
 msgid "CPU set"
 msgstr "CPU set"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
 msgid "CPU shares"
 msgstr "CPU shares"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
 msgid "Memory (Bytes)"
 msgstr "Memory (Bytes)"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
 msgid "TTY"
 msgstr "TTY"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:31
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
 msgid "Attach STDIN"
 msgstr "Attach STDIN"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:32
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
 msgid "Attach STDOUT"
 msgstr "Attach STDOUT"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:33
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:31
 msgid "Attach STDERR"
 msgstr "Attach STDERR"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:34
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:32
 msgid "Registry"
 msgstr "レジストリ"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:43
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:41
 msgid "Docker container created"
-msgstr "Docker コンテナが作成されました"
+msgstr "Docker コンテナーが作成されました"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:44
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:42
 msgid "Could not create the container"
-msgstr "コンテナを作成できませんでした"
+msgstr "コンテナーを作成できませんでした"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:50
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:48
 msgid "Docker container deleted"
-msgstr "Docker コンテナを削除しました"
+msgstr "Docker コンテナーを削除しました"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:51
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:49
 msgid "Could not delete the container"
-msgstr "コンテナを削除できませんでした"
+msgstr "コンテナーを削除できませんでした"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:61
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:59
 msgid "Logs"
 msgstr "ログ"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:78
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:75
 msgid "Running"
 msgstr "実行中"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:100
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:96
 msgid "Power a container on"
-msgstr "コンテナのパワーをオンにする"
+msgstr "コンテナーのパワーをオンにする"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:101
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:97
 msgid "The container was started."
-msgstr "コンテナは起動中です。"
+msgstr "コンテナーは起動中です。"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:117
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:112
 msgid "Power a container off"
-msgstr "コンテナのパワーをオフ"
+msgstr "コンテナーのパワーをオフ"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:113
 msgid "The container was stopped."
-msgstr "コンテナを停止しました。"
+msgstr "コンテナーを停止しました。"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:8
 msgid "Manage docker images"
 msgstr "Docker イメージの管理"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:9
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:21
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:33
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:25
 msgid "ID"
 msgstr "ID"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:34
 msgid "Image ID"
 msgstr "イメージ ID"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:11
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:23
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:15
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:35
 msgid "Size"
 msgstr "サイズ"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:16
+msgid "Tag count"
+msgstr "タグ数"
+
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:17
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:37
 msgid "Tags"
 msgstr "Tags"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:26
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:11
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:23
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:38
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:15
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:27
 msgid "Repository ID"
 msgstr "レポジトリID"
 
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:50
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:41
+msgid "'hammer_cli_katello' needs to be installed for %s command to work"
+msgstr "%s コマンドが動作するには、'hammer_cli_katello' をインストールする必要があります"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:8
+msgid "Manage docker registries"
+msgstr "Docker レジストリーの管理"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:22
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:31
+msgid "Docker registry created"
+msgstr "Docker レジストリーが作成されました"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:32
+msgid "Could not create the registry"
+msgstr "レジストリーを作成できませんでした"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:38
+msgid "Docker registry updated"
+msgstr "Docker レジストリーが更新されました"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:39
+msgid "Could not update the registry"
+msgstr "レジストリーを更新できませんでした"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:45
+msgid "Docker registry deleted"
+msgstr "Docker レジストリーが削除されました"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:46
+msgid "Could not delete the registry"
+msgstr "レジストリーを削除できませんでした"
+
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:8
 msgid "Manage docker tags"
 msgstr "Docker Tags の管理"
 
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:30
 msgid "Docker Image ID"
 msgstr "Docker イメージ ID"

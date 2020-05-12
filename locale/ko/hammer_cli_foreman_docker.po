@@ -5,160 +5,205 @@
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-09 13:45+0100\n"
-"PO-Revision-Date: 2015-03-09 14:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/foreman/language/ko/)\n"
+"POT-Creation-Date: 2015-06-09 09:00+0100\n"
+"PO-Revision-Date: 2017-10-20 17:17+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/foreman/foreman/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../lib/hammer_cli_foreman_docker.rb:6
+#: ../lib/hammer_cli_foreman_docker.rb:10
 msgid "Manipulate docker content"
-msgstr ""
+msgstr "Docker 컨텐츠 조정 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
-msgstr ""
+msgstr "Docker 컨테이너 관리"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:21
 msgid "Name"
 msgstr "이름 "
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Image repository"
-msgstr ""
+msgstr "이미지 리포지터리"
+
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:39
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
+msgid "Tag"
+msgstr "태그"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:10
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:22
-msgid "Tag"
-msgstr ""
+msgid "Command"
+msgstr "명령어"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:16
-msgid "Command"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:17
 msgid "Compute resource"
 msgstr "컴퓨터 리소스 "
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:24
 msgid "Entrypoint"
-msgstr ""
+msgstr "시작점"
+
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:25
+msgid "CPU set"
+msgstr "CPU 세트"
+
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
+msgid "CPU shares"
+msgstr "CPU 공유 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
-msgid "CPU set"
-msgstr ""
+msgid "Memory (Bytes)"
+msgstr "메모리(바이트)"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
-msgid "CPU shares"
-msgstr ""
+msgid "TTY"
+msgstr "TTY"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
-msgid "Memory (Bytes)"
-msgstr ""
+msgid "Attach STDIN"
+msgstr "STDIN 할당 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
-msgid "TTY"
-msgstr ""
+msgid "Attach STDOUT"
+msgstr "STDOUT 할당 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:31
-msgid "Attach STDIN"
-msgstr ""
+msgid "Attach STDERR"
+msgstr "STDERR 할당 "
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:32
-msgid "Attach STDOUT"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:33
-msgid "Attach STDERR"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:34
 msgid "Registry"
-msgstr ""
+msgstr "레지스트리"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:43
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:41
 msgid "Docker container created"
-msgstr ""
+msgstr "Docker 컨테이너가 생성되었습니다."
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:44
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:42
 msgid "Could not create the container"
-msgstr ""
+msgstr "컨테이너를 생성할 수 없습니다."
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:50
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:48
 msgid "Docker container deleted"
-msgstr ""
+msgstr "Docker 컨테이너가 삭제되었습니다."
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:51
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:49
 msgid "Could not delete the container"
-msgstr ""
+msgstr "컨테이너를 삭제할 수 없습니다."
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:61
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:59
 msgid "Logs"
 msgstr "로그"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:78
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:75
 msgid "Running"
-msgstr ""
+msgstr "실행중"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:100
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:96
 msgid "Power a container on"
-msgstr ""
+msgstr "컨테이너 전원 켜기"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:101
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:97
 msgid "The container was started."
-msgstr ""
+msgstr "컨테이너가 시작되었습니다."
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:117
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:112
 msgid "Power a container off"
-msgstr ""
+msgstr "컨테이너 전원 끄기"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:113
 msgid "The container was stopped."
-msgstr ""
+msgstr "컨테이너가 중지되었습니다."
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:8
 msgid "Manage docker images"
-msgstr ""
+msgstr "Docker 이미지 관리"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:9
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:21
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:33
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:25
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:34
 msgid "Image ID"
 msgstr "이미지 ID"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:11
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:23
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:15
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:35
 msgid "Size"
 msgstr "사이즈"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:16
+msgid "Tag count"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:17
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:37
 msgid "Tags"
-msgstr ""
+msgstr "태그"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:26
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:11
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:23
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:38
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:15
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:27
 msgid "Repository ID"
+msgstr "리포지터리 ID"
+
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:50
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:41
+msgid "'hammer_cli_katello' needs to be installed for %s command to work"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:8
+msgid "Manage docker registries"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:22
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:31
+msgid "Docker registry created"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:32
+msgid "Could not create the registry"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:38
+msgid "Docker registry updated"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:39
+msgid "Could not update the registry"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:45
+msgid "Docker registry deleted"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:46
+msgid "Could not delete the registry"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:8
 msgid "Manage docker tags"
-msgstr ""
+msgstr "Docker 태그 관리"
 
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:30
 msgid "Docker Image ID"
-msgstr ""
+msgstr "Docker 이미지 ID"

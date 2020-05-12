@@ -3,162 +3,209 @@
 # This file is distributed under the same license as the hammer_cli_foreman_docker package.
 # 
 # Translators:
+# Luiz Henrique Vasconcelos <luizvasconceloss@yahoo.com.br>, 2016
+# Luiz Henrique Vasconcelos <luizvasconceloss@yahoo.com.br>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_docker 0.0.3\n"
+"Project-Id-Version: hammer_cli_foreman_docker 0.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-09 13:45+0100\n"
-"PO-Revision-Date: 2015-03-09 14:21+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/foreman/language/pt_BR/)\n"
+"POT-Creation-Date: 2015-06-09 09:00+0100\n"
+"PO-Revision-Date: 2019-03-07 17:25+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/foreman/foreman/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../lib/hammer_cli_foreman_docker.rb:6
+#: ../lib/hammer_cli_foreman_docker.rb:10
 msgid "Manipulate docker content"
-msgstr ""
+msgstr "Manipular conteúdo do docker"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:8
 msgid "Manage docker containers"
-msgstr ""
+msgstr "Gerenciar contêineres do docker"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:12
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:21
 msgid "Name"
 msgstr "Nome"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:13
 msgid "Image repository"
-msgstr ""
+msgstr "Repositório de imagem"
+
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:39
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
+msgid "Tag"
+msgstr "Etiqueta"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:15
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:27
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:10
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:22
-msgid "Tag"
-msgstr ""
+msgid "Command"
+msgstr "Comando"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:16
-msgid "Command"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:17
 msgid "Compute resource"
 msgstr "Recurso de computação"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:24
 msgid "Entrypoint"
-msgstr ""
+msgstr "Ponto de entrada"
+
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:25
+msgid "CPU set"
+msgstr "Conjunto de CPU"
+
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:26
+msgid "CPU shares"
+msgstr "Compartilhamentos da CPU"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:27
-msgid "CPU set"
-msgstr ""
+msgid "Memory (Bytes)"
+msgstr "Memória (Bytes)"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:28
-msgid "CPU shares"
-msgstr ""
+msgid "TTY"
+msgstr "TTY"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:29
-msgid "Memory (Bytes)"
-msgstr ""
+msgid "Attach STDIN"
+msgstr "Anexar STDIN"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:30
-msgid "TTY"
-msgstr ""
+msgid "Attach STDOUT"
+msgstr "Anexar STDOUT"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:31
-msgid "Attach STDIN"
-msgstr ""
+msgid "Attach STDERR"
+msgstr "Anexar STDERR"
 
 #: ../lib/hammer_cli_foreman_docker/docker_container.rb:32
-msgid "Attach STDOUT"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:33
-msgid "Attach STDERR"
-msgstr ""
-
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:34
 msgid "Registry"
-msgstr ""
+msgstr "Registro"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:43
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:41
 msgid "Docker container created"
-msgstr ""
+msgstr "Contêiner do docker criado "
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:44
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:42
 msgid "Could not create the container"
-msgstr ""
+msgstr "Não foi possível criar o contêiner"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:50
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:48
 msgid "Docker container deleted"
-msgstr ""
+msgstr "Contêiner do docker removido"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:51
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:49
 msgid "Could not delete the container"
-msgstr ""
+msgstr "Não foi possível remover o contêiner"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:61
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:59
 msgid "Logs"
 msgstr "Logs"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:78
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:75
 msgid "Running"
-msgstr ""
+msgstr "Executando"
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:100
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:96
 msgid "Power a container on"
-msgstr ""
+msgstr "Ativar um contêiner "
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:101
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:97
 msgid "The container was started."
-msgstr ""
+msgstr "O contêiner foi iniciado. "
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:117
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:112
 msgid "Power a container off"
-msgstr ""
+msgstr "Desativar um contêiner "
 
-#: ../lib/hammer_cli_foreman_docker/docker_container.rb:118
+#: ../lib/hammer_cli_foreman_docker/docker_container.rb:113
 msgid "The container was stopped."
-msgstr ""
+msgstr "O contêiner foi encerrado."
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:5
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:8
 msgid "Manage docker images"
-msgstr ""
+msgstr "Gerenciar imagens do docker"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:9
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:21
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:9
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:21
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:33
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:25
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:10
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:22
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:14
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:34
 msgid "Image ID"
 msgstr "ID de Imagem"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:11
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:23
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:15
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:35
 msgid "Size"
 msgstr "Tamanho"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:25
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:16
+msgid "Tag count"
+msgstr "Contagem de tags"
+
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:17
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:37
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
-#: ../lib/hammer_cli_foreman_docker/docker_image.rb:26
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:11
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:23
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:38
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:15
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:27
 msgid "Repository ID"
-msgstr ""
+msgstr "ID do Repositório"
 
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:5
+#: ../lib/hammer_cli_foreman_docker/docker_image.rb:50
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:41
+msgid "'hammer_cli_katello' needs to be installed for %s command to work"
+msgstr "\"hammer_cli_katello\" precisa ser instalado para que o comando %s funcione"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:8
+msgid "Manage docker registries"
+msgstr "Gerenciar registros do Docker"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:13
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:22
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:31
+msgid "Docker registry created"
+msgstr "Registro do Docker criado"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:32
+msgid "Could not create the registry"
+msgstr "Não foi possível criar o registro"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:38
+msgid "Docker registry updated"
+msgstr "Registro do Docker atualizado"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:39
+msgid "Could not update the registry"
+msgstr "Não foi possível atualizar o registro"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:45
+msgid "Docker registry deleted"
+msgstr "Registro do Docker excluído"
+
+#: ../lib/hammer_cli_foreman_docker/docker_registry.rb:46
+msgid "Could not delete the registry"
+msgstr "Não foi possível excluir o registro"
+
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:8
 msgid "Manage docker tags"
-msgstr ""
+msgstr "Gerenciar tags do docker"
 
-#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:26
+#: ../lib/hammer_cli_foreman_docker/docker_tag.rb:30
 msgid "Docker Image ID"
-msgstr ""
+msgstr "ID de Imagem de Docker"
