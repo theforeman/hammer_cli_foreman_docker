@@ -1,6 +1,8 @@
 hammer_cli_foreman_docker [![Build Status](https://travis-ci.org/theforeman/hammer_cli_foreman_docker.svg)](https://travis-ci.org/theforeman/hammer_cli_foreman_docker)
 =========================================
 
+**The [foreman_docker](https://github.com/theforeman/foreman_docker) plugin has been discontinued. This plugin to hammer-cli has been discontinued additionally.**
+
 This [Hammer CLI](https://github.com/theforeman/hammer-cli) plugin contains
 set of commands for [foreman_docker](https://github.com/theforeman/foreman_docker),
 a plugin to [Foreman](http://theforeman.org/) for Docker.
